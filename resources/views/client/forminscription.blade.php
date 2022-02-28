@@ -6,8 +6,7 @@
 
 @section('links')
 
-    <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="{{asset('frontend/formlogin/images/icons/favicon.ico')}}"/>
+    
     <!--===============================================================================================-->
         <link rel="stylesheet" type="text/css" href="{{asset('frontend/formlogin/vendor/bootstrap/css/bootstrap.min.css')}}">
     <!--===============================================================================================-->

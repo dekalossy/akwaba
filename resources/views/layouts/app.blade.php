@@ -2,10 +2,10 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
   <head>
     @yield('title') {{--  va positionner ici la section 'title'------}}
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> <!-- faire attention  à ceci-->
     @yield('links')
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> <!-- faire attention  à ceci-->
     <link rel="icon" type="image/png" sizes="16x16"  href="{{asset('backend/dist/img/favicon-16x16.png')}}">
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
